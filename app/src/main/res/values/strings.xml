@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Steps Calc</string>
+    <string name="Calculate">Рассчитать</string>
+    <string name="CurrValueSteps">Текущее значение шагов</string>
+    <string name="CurrentDistancemm">Заданная дистанция в мм</string>
+    <string name="RealDistancemm">Пройденная дистанция мм</string>
+</resources>
