@@ -16,16 +16,14 @@
         app:layout_constraintTop_toTopOf="@id/editTextNumberDecimal"
         app:layout_constraintBottom_toBottomOf="@id/editTextNumberDecimal"
         app:layout_constraintEnd_toStartOf="@id/editTextNumberDecimal"
-        android:layout_marginStart="0dp" />
+        android:layout_marginStart="10dp" />
 
     <EditText
         android:id="@+id/editTextNumberDecimal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="10dp"
-        android:ems="10"
+        android:ems="4"
         android:inputType="number|phone"
-        android:paddingEnd="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/tvP3"
         app:layout_constraintTop_toTopOf="parent"
@@ -41,17 +39,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/editTextNumberDecimal2"
         app:layout_constraintBottom_toBottomOf="@id/editTextNumberDecimal2"
-        app:layout_constraintEnd_toStartOf="@id/editTextNumberDecimal2"
-        android:layout_marginStart="0dp" />
+        app:layout_constraintEnd_toStartOf="@id/editTextNumberDecimal2" />
 
     <EditText
         android:id="@+id/editTextNumberDecimal2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="10dp"
-        android:ems="10"
+        android:ems="4"
         android:inputType="number|phone"
-        android:paddingEnd="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/tvP3"
         app:layout_constraintTop_toBottomOf="@id/editTextNumberDecimal"
@@ -67,17 +62,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/editTextNumberDecimal3"
         app:layout_constraintBottom_toBottomOf="@id/editTextNumberDecimal3"
-        app:layout_constraintEnd_toStartOf="@id/editTextNumberDecimal3"
-        android:layout_marginStart="0dp" />
+        app:layout_constraintEnd_toStartOf="@id/editTextNumberDecimal3" />
 
     <EditText
         android:id="@+id/editTextNumberDecimal3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="10dp"
-        android:ems="10"
+        android:ems="4"
         android:inputType="number|phone"
-        android:paddingEnd="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/tvP3"
         app:layout_constraintTop_toBottomOf="@id/editTextNumberDecimal2"
